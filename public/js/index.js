@@ -15,8 +15,9 @@ const emailForm = document.querySelector("#emailForm");
 
 const toast = document.querySelector(".toast");
 
-// const baseURL = "https://thriving-peony-5deca6.netlify.app/";
-const baseURL = "http://localhost:3000"
+const baseURL = "https://shareone-1.herokuapp.com";
+// const baseURL = "http://localhost:3000"
+
 const uploadURL = `${baseURL}/api/files`;
 
 const emailURL = `${baseURL}/api/files/send`;
