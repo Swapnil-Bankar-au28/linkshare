@@ -16,6 +16,8 @@
         "ejs": "^3.1.5",
         "express": "^4.17.1",
         "mongoose": "^5.10.0",
+        "heroku-cli-util": "^8.0.12",
+        "heroku-client": "^3.1.0",
         "multer": "^1.4.2",
         "nodemailer": "^6.4.11",
         "uuid": "^8.3.0"
