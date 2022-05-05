@@ -5,6 +5,7 @@ const DB = "mongodb+srv://linkshare:bpysyuQm9ipNbS6q@cluster0.e6xku.mongodb.net/
 
 async function initMongoDB() {
     await mongoose.connect(DB, (err) => {
+
         if (err) {
             console.log("Error in connecting to DB")
         } else {

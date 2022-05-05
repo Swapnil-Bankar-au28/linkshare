@@ -5,9 +5,8 @@
     "license": "MIT",
     "scripts": {
         "dev": "nodemon server.js",
-
-        "server": "node server.js",
-
+        "server": "nodemon server.js",
+        "test": "npm run",
         "start": "node server.js"
     },
     "dependencies": {
